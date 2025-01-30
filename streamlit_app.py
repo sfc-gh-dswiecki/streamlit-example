@@ -13,7 +13,7 @@ forums](https://discuss.streamlit.io).
 
 In the meantime, below is an example of what you can do with just a few lines of code:
 """
-if st.button("Raise Exception")
+if st.button("Raise Exception"):
     raise Exception("An uncaught exception")
 
 num_points = st.slider("Number of points in spiral", 1, 10000, 1100)
